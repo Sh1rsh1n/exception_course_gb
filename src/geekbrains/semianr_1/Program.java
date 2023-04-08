@@ -1,4 +1,4 @@
-package ru.geekbrains;
+package geekbrains.semianr_1;
 
 import java.util.Arrays;
 import java.util.Random;
