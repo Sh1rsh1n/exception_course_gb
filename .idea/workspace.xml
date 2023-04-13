@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="410a3186-7e77-469f-8173-330638f9401d" name="Changes" comment="task1 changes">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="410a3186-7e77-469f-8173-330638f9401d" name="Changes" comment="add method subtractArrays&#10;add method divideArrays&#10;add method fillArray&#10;add method printArray&#10;add method checkArrays">
+      <change afterPath="$PROJECT_DIR$/src/geekbrains/homework_2/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geekbrains/homework_2/Task2_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geekbrains/homework_2/Task2_2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/geekbrains/homework_1/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geekbrains/homework_1/Task1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/geekbrains/semianr_1/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geekbrains/semianr_1/Program.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +30,24 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="recentNewPullRequestHead">
+      <RepoCoordinatesHolder>
+        <option name="owner" value="Sh1rsh1n" />
+        <option name="repository" value="exception_course_gb" />
+      </RepoCoordinatesHolder>
+    </option>
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="2f5d17b5-3ec1-4e84-9ccb-74dced3f3d50" />
+        <option name="url" value="https://github.com/Sh1rsh1n/exception_course_gb.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -45,17 +62,21 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/DevFolder/learning_java/exception_course/src/geekbrains/homework_2",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\DevFolder\learning_java\exception_course\src\geekbrains\homework_2" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\DevFolder\learning_java\exception_course\src\geekbrains\sem_1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Task1">
+  <component name="RunManager" selected="Application.Task2">
     <configuration name="Program1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="geekbrains.sem_1.Program1" />
       <module name="exception_course" />
@@ -82,8 +103,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="geekbrains.homework_2.Task2" />
+      <module name="exception_course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="geekbrains.homework_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task2" />
+        <item itemvalue="Application.Task1" />
+        <item itemvalue="Application.Program1" />
         <item itemvalue="Application.Task1" />
         <item itemvalue="Application.Program1" />
       </list>
@@ -105,7 +142,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="homework2" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
