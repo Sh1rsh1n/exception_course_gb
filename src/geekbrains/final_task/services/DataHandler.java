@@ -6,24 +6,26 @@ import geekbrains.final_task.exceptions.InputCodeError;
 import geekbrains.final_task.exceptions.PhoneFormatException;
 import geekbrains.final_task.exceptions.SexFormatException;
 
-import java.util.Scanner;
+import geekbrains.final_task.model.UserData;
 
 public class DataHandler {
 
-    private Scanner scanner;
+    public UserData inputUserData(String value) {
 
-    public String[] inputUserData() throws Exception {
-
-        String input = scanner.nextLine();
-
-        String[] array = input.split(" ");
+        String[] array = value.split(" ");
 
         if (checkInput(array)) {
-            return array;
+            return new UserData(array[1],   // имя
+                                array[0],   // фамилия
+                                array[2],   // отчество
+                                array[3],   // дата рождения
+                                Integer.valueOf(array[4]),  // номер телефона
+                                array[5].charAt(0); // пол
         }
-        return null;
+        throw new NullPointerException();
     }
 
+    // коды ошибок
     private int errorCodes(String[] array) {
         if (array == null) {
             return 1001;
@@ -36,7 +38,10 @@ public class DataHandler {
         }
         return 0;
     }
-
+    
+    /*
+    *   проверка входящих данных от пользователя
+    */
     private boolean checkInput(String[] array) {
 
         int codeError = errorCodes(array);
