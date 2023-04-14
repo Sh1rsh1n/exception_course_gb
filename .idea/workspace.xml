@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="410a3186-7e77-469f-8173-330638f9401d" name="Changes" comment="added:&#10;UserData.java&#10;DataHandler.java&#10;DataServices.java&#10;exceptions classes">
+    <list default="true" id="410a3186-7e77-469f-8173-330638f9401d" name="Changes" comment="update #3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/geekbrains/final_task/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geekbrains/final_task/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/geekbrains/final_task/model/UserData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geekbrains/final_task/model/UserData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/geekbrains/final_task/services/DataHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geekbrains/final_task/services/DataHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/geekbrains/final_task/services/DataServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geekbrains/final_task/services/DataServices.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/geekbrains/final_task/services/DataWriterToFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geekbrains/final_task/services/DataWriterToFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/geekbrains/homework_2/Task2_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geekbrains/homework_2/Task2_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/geekbrains/homework_2/Task2_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geekbrains/homework_2/Task2_2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681415842642</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update #3">
+      <created>1681499256672</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681499256672</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -198,6 +199,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="readme.md added (init commit)" />
     <MESSAGE value="added:&#10;UserData.java&#10;DataHandler.java&#10;DataServices.java&#10;exceptions classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="added:&#10;UserData.java&#10;DataHandler.java&#10;DataServices.java&#10;exceptions classes" />
+    <MESSAGE value="update #3" />
+    <option name="LAST_COMMIT_MESSAGE" value="update #3" />
   </component>
 </project>

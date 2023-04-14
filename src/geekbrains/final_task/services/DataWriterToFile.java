@@ -19,19 +19,19 @@ public class DataWriterToFile implements DataServices {
 
     @Override
     public void writeUserData() {
-        boolean value = checkExistsFile(String.format("%s.txt", path));     // проверяем существует ли файл по указанному пути
+        boolean value = checkExistsFile(String.format("src/geekbrains/final_task/users_store/%s.txt", path));     // проверяем существует ли файл по указанному пути
         StringBuilder sb = new StringBuilder();     // объект StringBuilder для удобства работы со строкой
 
         // если файл существует, дописываем в него данные, иначе создаем новый
-        try (FileWriter fw = new FileWriter(String.format("%s.txt", path), value)) {
+        try (FileWriter fw = new FileWriter(String.format("src/geekbrains/final_task/users_store/%s.txt", path), value)) {
 
             // помещаем все данные о пользователе в объект StringBuilder
-            sb.append(user.getLastName()).append(" ");
-            sb.append(user.getFirstName()).append(" ");
-            sb.append(user.getMiddleName()).append(" ");
-            sb.append(user.getBirthday()).append(" ");
-            sb.append(user.getPhone()).append(" ");
-            sb.append(user.getSex());
+            sb.append("<").append(user.getLastName()).append(">");
+            sb.append("<").append(user.getFirstName()).append(">");
+            sb.append("<").append(user.getMiddleName()).append(">");
+            sb.append("<").append(user.getBirthday()).append(">");
+            sb.append("<").append(user.getPhone()).append(">");
+            sb.append("<").append(user.getSex()).append(">");
 
             if (value) { // если файл существует, записываем данные с новой строки
                 fw.write("\n");
