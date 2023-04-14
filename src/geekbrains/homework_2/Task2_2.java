@@ -30,14 +30,16 @@ public static void printSum(Integer a, Integer b) throws FileNotFoundException {
 }
 */
 
+import java.io.FileNotFoundException;
+
 public class Task2_2 {
-	
+
 	public static void printSum(int a, int b) throws FileNotFoundException {
    		System.out.println(a + b);
 	}
 
 	public static void main(String args[]) {
-	
+
    		try {
        		int a = 90;
        		int b = 3;
@@ -53,7 +55,7 @@ public class Task2_2 {
        		System.out.println("Массив выходит за пределы своего размера!");
    		} catch (Exception ex) {
        		System.out.println("Что-то пошло не так...");
-   		} 
+   		}
 	}
 }
 

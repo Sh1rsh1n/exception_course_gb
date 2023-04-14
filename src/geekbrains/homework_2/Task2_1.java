@@ -13,7 +13,7 @@ public class Task2_1{
 		} // добавим дополнительные обработки, так как данный код может генерировать другие типы исключений
 		catch (ArithmeticException e) {
    			System.out.println("Catching ArithmeticException: " + e);
-		} catch (ArrayIndexOutOfBoundException e) {
+		} catch (ArrayIndexOutOfBoundsException e) {
 			System.out.println("Catching ArrayIndexOutOfBoundException: " + e);
 		} catch (NullPointerException e) {
 			System.out.println("Catching NullPointerException: " + e);

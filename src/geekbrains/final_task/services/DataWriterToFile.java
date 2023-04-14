@@ -1,46 +1,53 @@
 package geekbrains.final_task.services;
 
-import geekbrains.final_task.model.UserData;
+import geekbrains.final_task.model.User;
+
+import java.io.File;
 import java.io.FileWriter;
+import java.io.IOException;
 
 
 public class DataWriterToFile implements DataServices {
-    
-    private final static UserData user = new DataHandler().inputUserData(input);
-    private final static String path = user.getLastName();
-    
+
+    private User user;
+    private String path;
+
+    public DataWriterToFile(String input) {
+        this.user = new DataHandler().inputUserData(input);     // получили строку из входящих данных(из консоли)
+        this.path = user.getLastName();     // прописываем имя файла, как в условии (Фамилия пользователя)
+    }
+
     @Override
-    public void writeUserData(UserData user) {
-        boolean value  = checkExistsFile();
-        StringBuilder sb = new StringBuilder();
-        
+    public void writeUserData() {
+        boolean value = checkExistsFile(String.format("%s.txt", path));     // проверяем существует ли файл по указанному пути
+        StringBuilder sb = new StringBuilder();     // объект StringBuilder для удобства работы со строкой
+
         // если файл существует, дописываем в него данные, иначе создаем новый
-        try(FileWriter fw = new FileWriter(String.format("./dataFiles/%s.txt", path), value)) {
-        
+        try (FileWriter fw = new FileWriter(String.format("%s.txt", path), value)) {
+
+            // помещаем все данные о пользователе в объект StringBuilder
+            sb.append(user.getLastName()).append(" ");
+            sb.append(user.getFirstName()).append(" ");
+            sb.append(user.getMiddleName()).append(" ");
+            sb.append(user.getBirthday()).append(" ");
+            sb.append(user.getPhone()).append(" ");
+            sb.append(user.getSex());
+
             if (value) { // если файл существует, записываем данные с новой строки
                 fw.write("\n");
             }
-            // помещаем все данные о пользователе в объект StringBuilder
-            sb.append(user.getLastName() + " ");
-            sb.append(user.getLastName() + " ");
-            sb.append(user.getFirstName() + " ");
-            sb.append(user.getMiddleName() + " ");
-            sb.append(user.getBirthday() + " ");
-            sb.append(String.valueOf(user.getPhone()) + " ");
-            sb.append(user.getSex());
-            
             fw.write(sb.toString()); // записываем данные в файл
             fw.flush();
-        
         } catch (IOException ex) {
             ex.printStackTrace();
         }
-        
+
     }
-    
+
     // проверка существования файла
     private boolean checkExistsFile(String path) {
-        return new File(path).exists();
+        File file = new File(path);
+        return file.exists();
     }
-    
+
 }
