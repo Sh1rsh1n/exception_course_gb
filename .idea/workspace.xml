@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="410a3186-7e77-469f-8173-330638f9401d" name="Changes" comment="add method subtractArrays&#10;add method divideArrays&#10;add method fillArray&#10;add method printArray&#10;add method checkArrays">
-      <change afterPath="$PROJECT_DIR$/src/geekbrains/homework_2/Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geekbrains/homework_2/Task2_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geekbrains/homework_2/Task2_2.java" afterDir="false" />
+    <list default="true" id="410a3186-7e77-469f-8173-330638f9401d" name="Changes" comment="update #3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geekbrains/final_task/services/DataWriterToFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geekbrains/final_task/services/DataWriterToFile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,18 +55,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/DevFolder/learning_java/exception_course/src/geekbrains/homework_2",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/DevFolder/learning_java/exception_course/src/geekbrains/homework_2&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="geekbrains.final_task.exceptions" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\DevFolder\learning_java\exception_course\src\geekbrains\homework_2" />
     </key>
@@ -76,7 +77,20 @@
       <recent name="C:\DevFolder\learning_java\exception_course\src\geekbrains\sem_1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Task2">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="geekbrains.final_task.Main" />
+      <module name="exception_course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="geekbrains.final_task.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Program1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="geekbrains.sem_1.Program1" />
       <module name="exception_course" />
@@ -118,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Task2" />
         <item itemvalue="Application.Task1" />
         <item itemvalue="Application.Program1" />
         <item itemvalue="Application.Task1" />
-        <item itemvalue="Application.Program1" />
       </list>
     </recent_temporary>
   </component>
@@ -135,6 +149,28 @@
       <option name="presentableId" value="Default" />
       <updated>1680887676588</updated>
     </task>
+    <task id="LOCAL-00001" summary="readme.md added (init commit)">
+      <created>1681407869963</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681407869963</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added:&#10;UserData.java&#10;DataHandler.java&#10;DataServices.java&#10;exceptions classes">
+      <created>1681415842642</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681415842642</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update #3">
+      <created>1681499256672</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681499256672</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -159,5 +195,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="readme.md added (init commit)" />
+    <MESSAGE value="added:&#10;UserData.java&#10;DataHandler.java&#10;DataServices.java&#10;exceptions classes" />
+    <MESSAGE value="update #3" />
+    <option name="LAST_COMMIT_MESSAGE" value="update #3" />
   </component>
 </project>
